@@ -1,6 +1,70 @@
-.img-fluid photo {
+:root {
+  --primary-color: #ffc7c7;
+  --secondary-color: #8785a2;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#myPhoto {
   display: block;
   margin: 10px auto;
-  max-width: 65%;
+  max-width: 230px;
   height: auto;
+}
+.img-fluid {
+  display: block;
+  margin: 10px auto;
+  max-width: 250px;
+  height: auto;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.allProjects {
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.navbar .container-fluid {
+  background-color: var(--primary-color);
+}
+.navbar .container-fluid a {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 25px;
+  padding: 10px;
+}
+a {
+  font-weight: 500;
+}
+.portfolio {
+  margin: 50px auto;
+  padding: 40px;
 }
