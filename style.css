@@ -1,0 +1,6 @@
+.img-fluid photo {
+  display: block;
+  margin: 10px auto;
+  max-width: 65%;
+  height: auto;
+}
