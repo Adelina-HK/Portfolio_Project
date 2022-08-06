@@ -3,7 +3,9 @@
   --secondary-color: #8785a2;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+.greeting {
+  margin-top: 110px;
+}
 #myPhoto {
   display: block;
   margin: 10px auto;
@@ -23,11 +25,15 @@
 }
 
 .navigation-links a {
-  margin: 0 auto;
+  margin: 0 15px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+.homepagebuttoms {
+  display: flex;
+  justify-content: flex-start;
 }
 .primary-link {
   border-radius: 4px;
@@ -70,4 +76,13 @@ a {
 img,
 svg {
   vertical-align: middle;
+}
+.list {
+  font-weight: 500;
+  font-size: 15px;
+}
+.bottomLine {
+  background-color: #ffc7c7;
+  color: #8785a2;
+  margin: 60px 15px 15px;
 }
