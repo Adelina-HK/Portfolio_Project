@@ -86,3 +86,12 @@ svg {
   color: #8785a2;
   margin: 60px 15px 15px;
 }
+p {
+  font-weight: 400;
+  font-size: 17px;
+}
+#contact {
+  margin: 250px auto;
+  font-size: 20px;
+  color: #8785a2; font-weight: 700;
+}
