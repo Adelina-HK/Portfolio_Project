@@ -78,20 +78,31 @@ svg {
   vertical-align: middle;
 }
 .list {
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .bottomLine {
   background-color: #ffc7c7;
   color: #8785a2;
   margin: 60px 15px 15px;
+  
 }
-p {
-  font-weight: 400;
-  font-size: 17px;
-}
+
 #contact {
-  margin: 250px auto;
-  font-size: 20px;
-  color: #8785a2; font-weight: 700;
+  margin-top: 100px;
+  font-size: 27px;
+  color: #8785a2; font-weight: 500;
+}
+@media (min-width: 375px){
+  .navigation-links a  { 
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.greeting {
+  margin-top: 95px;
+  font-size: small;
+}
 }
