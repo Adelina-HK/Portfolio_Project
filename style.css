@@ -105,7 +105,10 @@ svg {
   .greeting {
     margin-top: 100px;
   }
-
+h3 {display:block;
+  text-align: center; 
+ 
+}
   .navbar {
     margin-top: 5px;
     font-family: "Playfair Display SC", serif;}
@@ -115,14 +118,31 @@ svg {
     color: #8785a2;
     font-weight: 500;
   }
-a{font-size: 18px;}}
+a {font-size: 18px;}
+}
 
 .bottomLine {
-  margin: 20px auto;
   font-size: small;
-}
+  border-radius: 4px;
+  text-align: center;
+ }
   .contactLink {text-align: center;
     margin-top: 100px;
     font-size: 22px;
     color: #8785a2;
     font-weight: 500;}
+
+    footer{
+      background-color: #ffc7c7;
+      padding: 20px;
+      border-radius: 6px;
+      margin: 20px auto;
+    max-inline-size: 55%;
+       }
+      .btn {
+    color:#ffc7c7;
+    font-weight: 600;
+    background-color: white;
+     }
+    .btn:hover{background-color:#ffc7c7;
+    border-color: white; color:white;}
