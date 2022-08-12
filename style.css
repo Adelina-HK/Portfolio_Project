@@ -1,10 +1,17 @@
 :root {
   --primary-color: #ffc7c7;
   --secondary-color: #8785a2;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-body, h1, h2, h3, .navbar {font-family: 'Poppins', sans-serif;}
- 
+body,
+.navbar {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 .greeting {
   margin-top: 110px;
 }
@@ -39,7 +46,7 @@ body, h1, h2, h3, .navbar {font-family: 'Poppins', sans-serif;}
 }
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -48,7 +55,7 @@ body, h1, h2, h3, .navbar {font-family: 'Poppins', sans-serif;}
 }
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
@@ -69,12 +76,13 @@ body, h1, h2, h3, .navbar {font-family: 'Poppins', sans-serif;}
   padding: 10px;
   margin: 5px;
 }
-a {font-size: 20px;
-  font-weight:500;
+a {
+  font-size: 20px;
+  font-weight: 500;
 }
 .portfolio {
-  margin: 50px auto;
-  padding: 25px;
+  margin: 40px auto;
+  padding: 15px;
 }
 img,
 svg {
@@ -90,7 +98,7 @@ svg {
   margin: 15px auto;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 370px) {
   .navigation-links a {
     margin: 12px auto;
     border-radius: 4px;
@@ -102,47 +110,68 @@ svg {
     font-size: medium;
     margin: 20px;
   }
-  .greeting {
+.icons {width: 30px;}
+.greeting {
     margin-top: 100px;
   }
-h3 {display:block;
-  text-align: center; 
- 
-}
-  .navbar {
-    margin-top: 5px;
-    font-family: "Playfair Display SC", serif;}
-  
-  .contactLink {
-    font-size: 18px;
-    color: #8785a2;
-    font-weight: 500;
+  div {margin-bottom: 10px;}
+  h3 {
+   margin-top: 10px;
+   font-size: 20px;
   }
-a {font-size: 18px;}
-}
 
+  a {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-weight: 400;
+    margin: 10px;
+  }
+  .contact-box h3{font-size: 19px; 
+    font-weight: 600;
+      }
+  .contact-box p{font-size: 15px;}
+  .contact-box .btn a { padding: 20px auto; 
+  font-size: 18px;} 
+  .contact-box .btn{margin: 27px auto;}
+}
+.contactLink {
+  font-size: 18px;
+  color: #8785a2;
+  font-weight: 500;
+}
 .bottomLine {
   font-size: small;
   border-radius: 4px;
   text-align: center;
- }
-  .contactLink {text-align: center;
-    margin-top: 100px;
-    font-size: 22px;
-    color: #8785a2;
-    font-weight: 500;}
+}
+.contactLink {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 22px;
+  color: #8785a2;
+  font-weight: 500;
+}
 
-    footer{
-      background-color: #ffc7c7;
-      padding: 20px;
-      border-radius: 6px;
-      margin: 20px auto;
-    max-inline-size: 55%;
-       }
-      .btn {
-    color:#ffc7c7;
-    font-weight: 600;
-    background-color: white;
-     }
-    .btn:hover{background-color:#ffc7c7;
-    border-color: white; color:white;}
+footer {
+  margin: 30px auto;
+}
+footer .contact-box {
+  padding: 20px;
+  background-color: #ffc7c7;
+  border-radius: 5px;
+}
+
+.btn {
+  font-weight: 500;
+  border-color: white;
+  
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: white;
+  color: #ffc7c7;
+}
+.icons {width: 45px;}
