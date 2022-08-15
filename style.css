@@ -81,7 +81,7 @@ a {
   font-weight: 500;
 }
 .portfolio {
-  margin: 40px auto;
+  margin: 80px auto;
   padding: 15px;
 }
 img,
@@ -110,8 +110,8 @@ svg {
     font-size: medium;
     margin: 20px;
   }
-.icons {width: 30px;}
-.greeting {
+  .icons {width: 30px;}
+  .greeting {
     margin-top: 100px;
   }
   div {margin-bottom: 10px;}
@@ -119,11 +119,9 @@ svg {
    margin-top: 10px;
    font-size: 20px;
   }
-
   a {
     font-size: 18px;
   }
-
   .btn {
     font-weight: 400;
     margin: 10px;
