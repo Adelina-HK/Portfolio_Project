@@ -79,7 +79,7 @@ h3 {
 }
 
 a {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
 }
 .portfolio {
@@ -112,38 +112,46 @@ svg {
     font-size: medium;
     margin: 20px;
   }
-  .icons {width: 30px;}
+  .icons {
+    width: 30px;
+  }
   .greeting {
     margin-top: 130px;
   }
-  
+
   h3 {
-   margin-top: 10px;
-   font-size: 20px;
+    margin-top: 10px;
+    font-size: 20px;
   }
   a {
-    font-size: 18px;
+    font-size: 22px;
   }
   .btn {
     font-weight: 400;
     margin: 10px;
   }
-  .contact-box h3{font-size: 19px; 
+  .contact-box h3 {
+    font-size: 19px;
     font-weight: 600;
-      }
-  .contact-box p{font-size: 15px;}
-  .contact-box .btn a { padding: 20px auto; 
-  font-size: 18px;} 
-  .contact-box .btn{margin: 27px auto;}
+  }
+  .contact-box p {
+    font-size: 15px;
+  }
+  .contact-box .btn a {
+    padding: 20px auto;
+    font-size: 18px;
+  }
+  .contact-box .btn {
+    margin: 27px auto;
+  }
 
   .navbar .container-fluid a {
-  color: var(--secondary-color);
-  font-weight: 500;
-  font-size: 20px;
-  padding: 8px 20px;
-  margin: 0 10px;
-}
-
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 0 10px;
+  }
 }
 .contactLink {
   font-size: 18px;
@@ -174,7 +182,6 @@ footer .contact-box {
 .btn {
   font-weight: 500;
   border-color: white;
-  
 }
 
 .btn:hover {
@@ -182,4 +189,6 @@ footer .contact-box {
   border-color: white;
   color: #ffc7c7;
 }
-.icons {width: 45px;}
+.icons {
+  width: 45px;
+}
